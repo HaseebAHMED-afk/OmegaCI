@@ -3,6 +3,7 @@ import './App.css';
 import FirstDiv from './Components/FirstDiv';
 import NavBar from './Components/NavBar';
 import SecondDiv from './Components/SecondDiv';
+import ThirdDiv from './Components/ThirdDiv';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <FirstDiv />
       <SecondDiv />
+      <ThirdDiv />
     </div>
   );
 }

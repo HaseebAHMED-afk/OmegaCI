@@ -32,3 +32,28 @@
     margin: 150px 0;
     text-align: center;
 }
+.card-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    justify-content: center;
+    object-fit: cover;
+}
+.card{
+    text-align: center;
+    justify-content: center;
+}
+.card1{
+    margin: 10px 0;
+}
+
+.testimonials{
+    text-align: center;
+    justify-content: center;
+}
+.card-text{
+    font-style: italic;
+}
+.name{
+    font-weight: bold;
+}
