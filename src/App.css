@@ -9,7 +9,9 @@
     margin-right: 150px !important;
     margin-top: 150px !important;
 }
-
+.main-heading{
+    margin: 50px 0;
+}
 .anim1{
     width: 100%;
     height: auto;
@@ -17,8 +19,16 @@
 .icon {
     width: 96px;
     height: 96px;
-    float: left;
+  }
+  .icon-text{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 25px 0;
   }
 .seconddiv{
+    text-align: center !important;
+    align-items: center !important;
+}
+.row1,.row2{
+    margin: 150px 0;
     text-align: center;
 }
