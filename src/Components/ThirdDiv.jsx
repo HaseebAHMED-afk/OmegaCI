@@ -1,11 +1,13 @@
 import React from "react";
 import "../App.css";
+import {Fade} from 'react-reveal'
 
 const ThirdDiv = () => {
   return (
     <div className="row testimonials">
-      <h1>Testimonials</h1>
+    <Fade top><h1>Testimonials</h1></Fade>
       <div className="row testimonials">
+      <Fade>
         <div className="col-lg-4 col-md-6 card1">
           <div className="card">
             <div className="card-body">
@@ -65,6 +67,7 @@ const ThirdDiv = () => {
             </div>
           </div>
         </div>
+        </Fade>
       </div>
     </div>
   );

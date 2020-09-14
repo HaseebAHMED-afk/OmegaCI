@@ -57,3 +57,12 @@
 .name{
     font-weight: bold;
 }
+.footer{
+    text-align: center;
+    height: 80px;
+    padding-top: 40px;
+    background-color: black;
+}
+.footer-text{
+    color: white;
+}
