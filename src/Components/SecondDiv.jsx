@@ -20,21 +20,22 @@ const SecondDiv = () => {
           <p className="icon-text">Highly Affordable plans. Cost Effective and Cost Efficient.</p>
         </div></Fade>
       </div>
-     <Fade top> <div className="row row2">
-        <div className="col-lg-4 col-md-6 ">
+      <div className="row row2">
+      <Fade top>  <div className="col-lg-4 col-md-6 ">
           <img className="icon" src="./media/puzzle.gif" alt="puzzle" />
           <p className="icon-text">Easy To Integrate and Deploy.</p>
-        </div>
+        </div></Fade>
+        <Fade top>
         <div className="col-lg-4 col-md-6 ">
           <img className="icon" src="./media/tool.gif" alt="tool" />
           <p className="icon-text">Easy To Configure</p>
-        </div>
+        </div></Fade>
+        <Fade top>
         <div className="col-lg-4 col-md-6 ">
           <img className="icon" src="./media/cloud.gif" alt="cloud" />
           <p className="icon-text">Distributed Cloud System.</p>
-        </div>
+        </div></Fade>
       </div>
-      </Fade>
     </div>
   );
 };
